@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
       content = data;
     }
 
-    response.send(content);
+    response.send(content.toString('utf-8'));
   });
 });
 
