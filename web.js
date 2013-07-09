@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
     }
 
     response.send(conten);
-  }
+  });
 });
 
 var port = process.env.PORT || 5000;
